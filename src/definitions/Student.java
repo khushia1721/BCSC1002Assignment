@@ -11,8 +11,30 @@ public class Student {
     private String middleNameOfTheStudent;
     private String lastNameOfTheStudent;
     private long universityRollNumberOfTheStudent;
-    private int numberOfBooksIssuedByTheStudent;
-    private Book[] namesOfTheBooksIssuedByTheStudent;
+    private int numberOfBooksIssuedByStudent;
+    private Book[] namesOfBooksIssuedByStudent;
 
+    public String getFirstNameOfTheStudent() {
+        return firstNameOfTheStudent;
+    }
 
+    public String getMiddleNameOfTheStudent() {
+        return middleNameOfTheStudent;
+    }
+
+    public String getLastNameOfTheStudent() {
+        return lastNameOfTheStudent;
+    }
+
+    public long getUniversityRollNumberOfTheStudent() {
+        return universityRollNumberOfTheStudent;
+    }
+
+    public int getNumberOfBooksIssuedByStudent() {
+        return numberOfBooksIssuedByStudent;
+    }
+
+    public Book[] getNamesOfBooksIssuedByStudent() {
+        return namesOfBooksIssuedByStudent;
+    }
 }
