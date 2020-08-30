@@ -18,8 +18,7 @@ public class Student {
     private int numberOfBooksIssuedByStudent;
     private Book[] namesOfBooksIssuedByStudent;
 
-    public Student(String firstNameOfTheStudent, String middleNameOfTheStudent, String lastNameOfTheStudent,
-                   long universityRollNumberOfTheStudent, int numberOfBooksIssuedByStudent, Book[] namesOfBooksIssuedByStudent) {
+    public Student() {
         this.firstNameOfTheStudent = firstNameOfTheStudent;
         this.middleNameOfTheStudent = middleNameOfTheStudent;
         this.lastNameOfTheStudent = lastNameOfTheStudent;
@@ -107,5 +106,18 @@ public class Student {
                 getUniversityRollNumberOfTheStudent(), getNumberOfBooksIssuedByStudent());
         result = 31 * result + Arrays.hashCode(getNamesOfBooksIssuedByStudent());
         return result;
+    }
+
+    /**
+     * This method will show all the books which is issued by the Student.
+     */
+
+    public void showIssuedBooksByStudent() {
+        if (getNumberOfBooksIssuedByStudent() == 0) {
+            System.out.println("Sorry, you haven't issued any book yet.");
+        } else {
+            System.out.println("These are the books issued by you: ");
+        }
+
     }
 }
