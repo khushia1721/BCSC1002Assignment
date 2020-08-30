@@ -1,7 +1,8 @@
 /*  Created by IntelliJ IDEA.
- *  User: Khushi Agarwal (khushia1721)
- *  Date: 30/08/20
- *  File Name : Student.java
+ *  User: Divyansh Bhardwaj (dbc2201)
+ *  Date: 21/08/20
+ *  Time: 3:50 PM
+ *  File Name : FrontDesk.java
  * */
 package definitions;
 
