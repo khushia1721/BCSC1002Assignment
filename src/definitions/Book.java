@@ -11,5 +11,17 @@ public class Book {
     private String authorName;
     private String ISBNNumber;
 
+    public String getBookName() {
+        return bookName;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public String getISBNNumber() {
+        return ISBNNumber;
+    }
+
 
 }
