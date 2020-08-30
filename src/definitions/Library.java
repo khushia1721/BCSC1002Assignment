@@ -12,7 +12,7 @@ public class Library {
 
     private Book[] booksThatAreCurrentlyAvailable;
 
-    public Library(Book[] booksThatAreCurrentlyAvailable) {
+    public Library() {
         this.booksThatAreCurrentlyAvailable = booksThatAreCurrentlyAvailable;
     }
 
@@ -20,7 +20,7 @@ public class Library {
         return booksThatAreCurrentlyAvailable;
     }
 
-    public void setBooksThatAreCurrentlyAvailable(Book[] booksThatAreCurrentlyAvailable) {
+    public void setBooksThatAreCurrentlyAvailable() {
         this.booksThatAreCurrentlyAvailable = booksThatAreCurrentlyAvailable;
     }
 
